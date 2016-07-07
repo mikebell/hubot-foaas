@@ -1,4 +1,4 @@
-# hubot-hubot-foaas
+# hubot-foaas
 
 Basic interface for FOAAS.com
 
@@ -8,17 +8,18 @@ See [`src/hubot-foaas.coffee`](src/hubot-foaas.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-hubot-foaas --save`
+`npm install hubot-foaas --save`
 
-Then add **hubot-hubot-foaas** to your `external-scripts.json`:
+Then add **hubot-foaas** to your `external-scripts.json`:
 
 ```json
-["hubot-hubot-foaas"]
+["hubot-foaas"]
 ```
 
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> fu life
+hubot>> Fuck off, life.
+hubot>> - user1.
 ```
